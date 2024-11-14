@@ -1,8 +1,9 @@
 ---
-title: Anki Documentation
+title: Create Flashcards with Furigana in Anki
 permalink: /portfolio/anki/
 toc: true
 toc_sticky: true
+author_profile: false
 ---
 [Anki](https://apps.ankiweb.net/) is an open-source flashcard application that allows people to study flashcards on their computer or smartphone (Android or iOS device). It uses a spaced repetition algorithm to aid in memorization. Anki can be used to study anything from languages to anatomy to history. It has a large user base, especially among people in medical school and people learning foreign languages.
 
@@ -22,7 +23,7 @@ Once Add has been clicked a small window will open. In this window you will find
 3. The fields of the card
 
  To create a new flashcard, enter the text that you want to see in the individual fields of the card and click **Add**.
-> &#128221; **Note:** The type of flash card in the picture above only has two fields which are labeled front and back. To add text to the front side of the card (which is the first side that you will see when learning or reviewing the card) enter text into the textbox under “Front”. To add text to the back side of the card (which is the second side that you will see when learning or reviewing the card) enter text into the textbox under “Back”.
+>&#128221; **Note:** The type of flash card in the picture above only has two fields which are labeled front and back. To add text to the front side of the card (which is the first side that you will see when learning or reviewing the card) enter text into the textbox under “Front”. To add text to the back side of the card (which is the second side that you will see when learning or reviewing the card) enter text into the textbox under “Back”.
 
 ## Import Flashcards
 To import flashcards that you have made into Anki, the file needs to be saved as a CSV file in a “UTF-8 encoding”. For that reason, Anki recommends that people create flashcards this by using [Libreoffice](https://www.libreoffice.org/) to create a spreadsheet. Anki treats each column of the spreadsheet as a text field and each new row as a new card.
