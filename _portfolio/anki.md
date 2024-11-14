@@ -26,7 +26,7 @@ Once Add has been clicked a small window will open. In this window you will find
 >&#128221; **Note:** The type of flash card in the picture above only has two fields which are labeled front and back. To add text to the front side of the card (which is the first side that you will see when learning or reviewing the card) enter text into the textbox under “Front”. To add text to the back side of the card (which is the second side that you will see when learning or reviewing the card) enter text into the textbox under “Back”.
 
 ## Import Flashcards
-To import flashcards that you have made into Anki, the file needs to be saved as a CSV file in a “UTF-8 encoding”. For that reason, Anki recommends that people create flashcards this by using [Libreoffice](https://www.libreoffice.org/) to create a spreadsheet. Anki treats each column of the spreadsheet as a text field and each new row as a new card.
+To import flashcards that you have made into Anki, the file needs to be saved as a CSV file in a “UTF-8 encoding”. For that reason, Anki recommends creating flashcards externally by using [Libreoffice](https://www.libreoffice.org/) to create a spreadsheet. Anki treats each column of the spreadsheet as a text field and each new row as a new card.
 
 ![Screenshot of spreadsheet with six rows of text](/assets/images/anki/spreadsheet.png)
 
@@ -74,5 +74,5 @@ In order for furigana that has been added in flashcards to be rendered by Anki, 
 Step 1: Click the **Cards** button in the window that is used to add new cards. Once this button is clicked a window will open that allows you to edit the front and back sides of the card, as well as the CSS for the cards. 
 
 ![The template window with furigana applied](/assets/images/anki/templatefurigana.png)
-Step 2: Add `furigana:` inside of the double brackets of the field you want furigana to be in. 
+Step 2: Add `furigana:` inside of the double brackets of the field you want furigana to be in. \
 Step 3: Click **Save** to apply the changes that have been made.
