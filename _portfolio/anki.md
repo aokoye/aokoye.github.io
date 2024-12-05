@@ -7,16 +7,16 @@ author_profile: false
 ---
 [Anki](https://apps.ankiweb.net/) is an open-source flashcard application that allows people to study flashcards on their computer or smartphone (Android or iOS device). It uses a spaced repetition algorithm to aid in memorization. Anki can be used to study anything from languages to anatomy to history. It has a large user base, especially among people in medical school and people learning foreign languages.
 
-This tutorial is focused on features of Anki that are especially useful for people learning Japanese. It covers how to create flashcards and how to add furigana to flashcards. Additionally, there is a list of popular add-ons that are aimed at people learning Japanese.
+This tutorial is focused on features of Anki that are especially useful for people learning Japanese. It covers how to create flashcards and how to add furigana to flashcards. If you already know how to create flashcards in Anki you can skip to the section on [furigana](#furigana) to learn how to add furigana to flashcards.
 
 # Create Flashcards
 There are two ways to create flashcards in Anki. The first way is to create flashcards within Anki. The second way is to create flashcards in a separate program such as LibreOffice and import them into Anki.
 
 ## Basic Flashcard Creation
-![Main anki window](/assets/images/anki/ankimain.png)
+[![Main anki window](/assets/images/anki/ankimain.png)](/assets/images/anki/ankimain.png)
 The most basic way of creating flashcards is to create them within Anki itself. To do this click the **Add** button at the top of the window. 
 
-![Window to create flashcards](/assets/images/anki/ankiadd.png)
+[![Window to create flashcards](/assets/images/anki/ankiadd.png)](/assets/images/anki/ankiadd.png)
 Once Add has been clicked a small window will open. In this window you will find:
 1. The type of flashcard you are adding and the deck deck that the flashcard will be in (these can be changed by clicking the buttons)
 2. Text editing options
@@ -28,18 +28,18 @@ Once Add has been clicked a small window will open. In this window you will find
 ## Import Flashcards
 To import flashcards that you have made into Anki, the file needs to be saved as a CSV file in a “UTF-8 encoding”. For that reason, Anki recommends creating flashcards externally by using [Libreoffice](https://www.libreoffice.org/) to create a spreadsheet. Anki treats each column of the spreadsheet as a text field and each new row as a new card.
 
-![Screenshot of spreadsheet with six rows of text](/assets/images/anki/spreadsheet.png)
+[![Screenshot of spreadsheet with six rows of text](/assets/images/anki/spreadsheet.png)](/assets/images/anki/spreadsheet.png)
 
 In the image above, Anki will default to mapping column A as the “front” field and column B as the “back” field. 
 
-![CSV options](/assets/images/anki/csvoptions.png)
+[![CSV options](/assets/images/anki/csvoptions.png)](/assets/images/anki/csvoptions.png)
 
 To save the spreadsheet as a CSV in LibreOffice, go to *File>Save As* and  select CSV as the file type.\
  After the file name and location have been chosen and save has been clicked, a window like the above will appear. This shows the default CSV options. The default field delimiter is a comma (,). This can be changed to a semi-colon (;), colon (:), tab, or a space. If your definition field has commas you will want to change the delimiter, ideally to a semi-colon, colon, or tab.
 
 To import the saved CSV file open the Anki application and go to *File>Import*, select the CSV file, and click **Open**.
 
-![Anki import window](/assets/images/anki/importfilewindow.png)
+[![Anki import window](/assets/images/anki/importfilewindow.png)](/assets/images/anki/importfilewindow.png)
 
 After clicking open you will see a window similar to the above. Here you will see:
 1. The field separator – this allows you to choose what separates different fields within the file. It will default to what was chosen as the delimiter when the CSV file was created.
@@ -70,9 +70,9 @@ There needs to be a space in front of the kanji so that the furigana renders cor
 ## Edit Flashcard Templates to Show Furigana
 In order for furigana that has been added in flashcards to be rendered by Anki, the template for the flashcard has to be edited.
 
-![Template window](/assets/images/anki/template.png)
+[![Template window](/assets/images/anki/template.png)](/assets/images/anki/template.png)
 Step 1: Click the **Cards** button in the window that is used to add new cards. Once this button is clicked a window will open that allows you to edit the front and back sides of the card, as well as the CSS for the cards. 
 
-![The template window with furigana applied](/assets/images/anki/templatefurigana.png)
+[![The template window with furigana applied](/assets/images/anki/templatefurigana.png)](/assets/images/anki/templatefurigana.png)
 Step 2: Add `furigana:` inside of the double brackets of the field you want furigana to be in. \
 Step 3: Click **Save** to apply the changes that have been made.
